@@ -1,0 +1,54 @@
+[user]
+  name = Amanda Sposito
+  email = amandinha.sposito@gmail.com
+[core]
+  excludesfile = ~/.gitignore
+[pager]
+  log = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+  show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+  diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  df = diff
+  dfs = diff --staged
+  please = push --force-with-lease
+  ras = rebase -i --autosquash
+  rc = rebase --continue
+  ra = rebase --abort
+  rs = rebase --skip
+  sl = stash list
+  sp = stash pop
+  wip = stash save --keep-index --include-untracked "wip"
+  amend = commit --amend -C head
+  prune = remote prune origin
+[color]
+  ui = auto
+[color "diff-highlight"]
+  oldNormal = bold red
+  newNormal = bold green
+  oldHighlight = bold black 203
+  newHighlight = bold black 83
+[color "diff"]
+  meta = dim
+[fetch]
+  prune = true
+[pull]
+  rebase = true
+[push]
+  default = current
+[merge]
+  ff = false
+  tool = p4merge
+[rerere]
+  enabled = 1
+[diff]
+  renames = copies
+  indentHeuristic = true
+[help]
+  autocorrect = -1
+[github]
+  user = amandasposito
+[credential]
+  helper = osxkeychain
