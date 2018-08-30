@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Material Theme Ocean",
+    "editor.fontSize": 18,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.emptySelectionClipboard": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "terminal.integrated.fontSize": 18,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.openEditors.visible": 0,
+    "workbench.iconTheme": "ayu"
+}
