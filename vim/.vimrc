@@ -32,6 +32,9 @@ Plug 'hail2u/vim-css3-syntax'
 Plug 'othree/html5.vim'
 call plug#end()
 
+" config leader key
+let mapleader = ","
+
 syntax enable " enable syntax processing
 set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline:h17
 set guitablabel=%M%t
@@ -138,7 +141,7 @@ nnoremap <leader>o <C-w>o
 nnoremap <leader>- :%s/\s\+$//<cr>:let @/=''<CR>
 
 " nerdtree map
-map <C-\> :NERDTreeToggle<CR>
+map <D-\> :NERDTreeToggle<CR>
 
 " 2 spaces forever :)
 set tabstop=2
@@ -154,3 +157,12 @@ map <C-p> :CtrlP<CR>
 
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|bower_components|target|dist|coverage|_build)|(\.(swp|ico|git|svn))$'
 
+" Cut, copy, paste
+vmap <C-c> y<Esc>i
+vmap <C-x> d<Esc>i
+map <C-v> pi
+imap <C-v> <Esc>pi
+imap <C-z> <Esc>ui
+
+" tcomment
+map <D-/> :TComment<CR>
