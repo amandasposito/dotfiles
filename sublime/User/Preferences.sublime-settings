@@ -1,10 +1,9 @@
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/User/SublimeLinter/Dracula (SL).tmTheme",
 	"copy_with_empty_selection": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 19,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -15,8 +14,7 @@
 		79
 	],
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-  "folder_exclude_patterns": ["deps", "_build"]
+  	"folder_exclude_patterns": ["deps", "_build"]
 }
