@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " color themes
-Plug 'pgavlin/pulumi.vim'
+Plug 'arcticicestudio/nord-vim'
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
