@@ -1,16 +1,13 @@
 call plug#begin('~/.vim/plugged')
 
 " color themes
-Plug 'lifepillar/vim-solarized8'
-Plug 'kaicataldo/material.vim'
-Plug 'ayu-theme/ayu-vim'
+Plug 'pgavlin/pulumi.vim'
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'Raimondi/delimitMate'
 Plug 'tomtom/tcomment_vim'
-Plug 'gabesoft/vim-ags'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
@@ -42,11 +39,8 @@ if has("gui_macvim")
   set invmmta                     " make Mac's Option key behave as the Meta key
 endif
 
-" material theme
-set background=dark
-let g:material_theme_style = 'palenight'
-let g:material_terminal_italics = 1
-colorscheme material
+" theme
+colorscheme nord
 
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
