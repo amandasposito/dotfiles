@@ -7,7 +7,7 @@ $ cp -R .vim ~/.vim
 $ cp -R .vimrc ~/.vimrc
 ```
 
-### Don't forget the colors
+### The color theme
 [NordTheme](https://www.nordtheme.com/docs/ports/vim/installation)
 
 ### Finish him
